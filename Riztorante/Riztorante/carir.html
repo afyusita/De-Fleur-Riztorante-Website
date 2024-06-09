@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="carir.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>De Fleur Ristorante</title>
+    <style>
+        body {
+            background-color: #711515; /* Warna latar belakang */
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px; /* Sesuaikan margin atas untuk mengurangi jarak */
+        }
+
+        .card {
+            flex: 1 1 300px;
+            max-width: 300px;
+            background-color: #fde7cf;
+            border-radius: 10px; /* Tambahkan border-radius */
+            overflow: hidden; /* Mengatasi overflow konten */
+            display: flex;
+            flex-direction: column;
+            height: 100%; /* Pastikan semua card memiliki tinggi yang sama */
+        }
+
+        .card-img-top {
+            width: 100%; /* Pastikan gambar mengisi lebar kartu */
+            height: 230px; /* Sesuaikan tinggi gambar */
+            object-fit: cover; /* Gambar menyesuaikan ukuran */
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px; /* Tambahkan padding */
+            flex: 1; /* Agar card-body mengambil sisa tinggi yang tersedia */
+        }
+
+        .card-title {
+            margin: 10px 0; /* Ubah margin atas dan bawah */
+        }
+
+        .card-text {
+            font-size: 17px;
+            font-style: italic;
+            color: #891717e5;
+            margin: 5px 0; /* Ubah margin atas dan bawah */
+            text-align: center; /* Tambahkan text-align */
+        }
+
+        ul {
+            font-size: 16px;
+            color: #000000e5;
+            margin: 5px 0; /* Ubah margin atas dan bawah */
+            text-align: left; /* Tambahkan text-align */
+            padding-left: 20px; /* Tambahkan padding kiri */
+        }
+    </style>
+</head>
+<body>
+
+    <!--========== NAVBAR ==========-->
+    <header class="l-header" id="header" style="background-color: bisque;">
+        <nav class="nav bd-container">
+            <div class="container">
+                <img src="LOGO DE FLEUR.png" class="logo" style="width: 130px;">
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="home.html" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="about us.html" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="service.html" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="menu.html" class="nav__link">Menu</a></li>
+                    <li class="nav__item"><a href="reservasi 2.php" class="nav__link">Reservasi</a></li>
+                    <li class="nav__item"><a href="contact.php" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="news.html" class="nav__link">News&Events</a></li>
+                    <li class="nav__item"><a href="partnership.html" class="nav__link">Partnership</a></li>
+                    <li class="nav__item"><a href="carir.html" class="nav__link">Career</a></li>
+                    <li class="nav__item"><a href="feedback.html" class="nav__link">Feedback</a></li>
+                    <li class="nav__item"><a href="login.html" class="nav__link">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--========== PAGE ==========-->
+    <div style="text-align: center; margin-top: 100px;">
+        <p class="fst-italic" style="font-weight: bold; font-size: 45px; font-style: italic; color: #fde7cf; margin-bottom: 0px">Career</p>
+        <p class="fw-light" style="font-size: 12px; color: #fde7cf; margin-top: -5px">
+            Latest Information and Opportunitiesin De Fleur Ristorante for your future.</p>
+    </div>
+    <div class="card-container">
+        <div class="card">
+            <img src="https://i.pinimg.com/564x/6e/83/0b/6e830beb0228a30f8e76dd2b87d19001.jpg" class="card-img-top" alt="Placeholder image" />
+            <div class="card-body">
+                <h2 class="card-title">Kitchen Staff</h2>
+                <p class="card-text">Commis Chef</p>
+                <ul>
+                    <li>A bachelor's degree in accounting, economics, finance, or a similar major is required.</li>
+                    <li>A master's degree is preferred.</li>
+                    <li>Must be a certified public accountant (CPA)</li>
+                    <li>A minimum of five years' experience in accounting/finance is required.</li>
+                </ul>
+                <p class="card-text">Chef de Partie</p>
+                <ul>
+                    <li>High School diploma or GED: 3 year's experience in the culinary, food and beverage or related professional area or</li>
+                    <li>Excellent use of various cooking methods, ingredients, equipment and processes.</li>
+                    <li>Detail, thorough, able to work in team, have commitment, integrity and able to keep company secret.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/61/d8/77/61d877cd72deb13f1b8e21e16969f20b.jpg" class="card-img-top" alt="Placeholder image" />
+            <div class="card-body">
+                <h2 class="card-title">Finance Staff</h2>
+                <p class="card-text">Cost Control Manager</p>
+                <ul>
+                    <li>Diploma 3 or Bachelor's Degree in accounting or related major.</li>
+                    <li>At least 3 years working experience as a accounting.</li>
+                    <li>Must be a certified public accountant (CPA)</li>
+                    <li>Experience working in F&B will be your advantage.</li>
+                </ul>
+                <p class="card-text">Accounting Staff</p>
+                <ul>
+                    <li>A bachelor's degree in accounting, economics, finance, or a similar major is required.</li>
+                    <li>A master's degree is preferred.</li>
+                    <li>Must be a certified public accountant (CPA)</li>
+                    <li>A minimum of five years' experience in accounting/finance is required.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://i.pinimg.com/564x/cf/ce/d9/cfced9c98d9e433fc50c034273c85027.jpg" class="card-img-top" alt="Placeholder image" />
+            <div class="card-body">
+                <h2 class="card-title">Marketing Staff</h2>
+                <p class="card-text">Sales Manager</p>
+                <ul>
+                    <li>SMA/SMK, Diploma or Bachelor's degree in marketing, business, or related field.</li>
+                    <li>Minimum has 2 years of working experience as a sales manager in F&B will be your advantage.</li>
+                    <li>Excellent leader and communication skills, good analytical thinking, able to think creative and innovative.</li>
+                </ul>
+                <p class="card-text">Project Manager</p>
+                <ul>
+                    <li>Bachelor's degree or master's degree in Arts, Advertising, Creative Multimedia or any related major.</li>
+                    <li>Minimum 3 years of experience as project manager in F&B will be your advantage.</li>
+                    <li>Creative and have strong analytical and strategical mindset.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,9 @@
+<script>
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+        // Mencegah formulir untuk melakukan aksi default (mengirimkan data ke halaman baru)
+        event.preventDefault();
+        
+        // Menampilkan pesan pop-up
+        alert("Thank you! Your message has been successfully sent.");
+    });
+</script>

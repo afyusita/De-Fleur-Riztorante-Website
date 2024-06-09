@@ -1,0 +1,11 @@
+<!--========== JS in line button to menu ==========-->
+                            <script>
+                            function scrollToMenu() {
+                                // Mengambil elemen menu dengan ID 'menu'
+                                var menuSection = document.getElementById('menu');  
+                                // Scroll ke bagian menu menggunakan metode scrollIntoView()
+                                menuSection.scrollIntoView({ behavior: 'smooth' });
+                            }
+                            </script>
+                       </div>
+    

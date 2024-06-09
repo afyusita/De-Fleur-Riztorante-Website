@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Restoran Italia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+/* CSS Styles */
+
+      
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #640303;
+        }
+        
+        
+        h3{
+            margin-top: 30px;
+            color: #ffffff
+        }
+        h1 {
+            margin: 0;
+            color: #ffffff
+        }
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .menu-item {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .menu-item img {
+            width: 200px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .menu-item h2 {
+            color: #640002;
+        }
+        .menu-item p {
+            color: #000000;
+            font-size: 15px;
+        }
+        .menu {
+    padding-top: 100px; /* Tambahkan padding-top sesuai dengan tinggi navbar untuk mencegah tumpang tindih */
+}
+
+.side-button {
+          position: fixed;
+          right: 20px;
+          top: 50%;
+          transform: translateY(-50%);
+          padding: 10px 20px;
+          background-color: #fde7cf;
+          color: #891717e5;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          transition: background-color 0.3s;
+        }
+
+        .side-button:hover {
+          background-color: #891717e5;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header class="l-header" id="header" style="background-color: bisque; margin-bottom: -70px;">
+        <nav class="nav bd-container">
+            <div class="container">
+                <img src="LOGO DE FLEUR.png" class="logo" style="width: 130px;">
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                  <li class="nav__item"><a href="dashboard.php" class="nav__link active-link">Home</a></li>
+                  <li class="nav__item"><a href="aboutusadmin.html" class="nav__link">About</a></li>
+                  <li class="nav__item"><a href="serviceadmin.html" class="nav__link">Services</a></li>
+                  <li class="nav__item"><a href="menuadmin.html" class="nav__link">Menu</a></li>
+                  <li class="nav__item"><a href="#reservasi" class="nav__link">Reservasi</a></li>
+                  <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                  <li class="nav__item"><a href="newsadmin.html" class="nav__link">News&Events</a></li>
+                  <li class="nav__item"><a href="partnershipadmin.html" class="nav__link">Partnership</a></li>
+                  <li class="nav__item"><a href="cariradmin.html" class="nav__link">Career</a></li>
+                  <li class="nav__item"><a href="#feedback" class="nav__link">Feedback</a></li>
+                  <li class="nav__item"><a href="home.html" class="nav__link">Log Out</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <section class="menu" id="menu">
+        <h3 class="section-title" style="color: bisque;">Main Course of De Fleur Ristorante</h3>
+
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="GAMBAR2/PANNE.png" alt="Pizza">
+            <h2>Penne Arrabbiata</h2>
+            <p>Penne Arrabbiata with mozzarella and chorizo.</p>
+        </div>
+        <div class="menu-item">
+            <img src="GAMBAR2/TAGLIATA DI MANZO.png" alt="Pasta">
+            <h2>Tagliata Di Manzo</h2>
+            <p>300g Hokubee Australian sirloin, served with rucola & vegetables.</p>
+        </div>
+        <div class="menu-item">
+            <img src="GAMBAR2/SPAGHETTI SEA URCHIN.png" alt="Gelato">
+            <h2>Spaghetti Sea Urchin</h2>
+            <p>Sea urchin, egg yolk, caviar, lightly spicy .</p>
+        </div>
+        <div class="menu-item">
+            <img src="GAMBAR2/PIZZA MARGHERITA .png" alt="Pizza">
+            <h2>Pizza Margherita</h2>
+            <p>Tomato, mozzarella, oregano, basil.</p>
+        </div>
+        <div class="menu-item">
+            <img src="GAMBAR2/BRODETTO DI PESCE 'TERRACOTA'.png" alt="Pasta">
+            <h2>Brodetto Di Pesce 'Terracota'</h2>
+            <p>10 varieties of seafood soup. Slow-cooked in a special Italian-made terracotta to create a unique flavor.</p>
+        </div>
+        <div class="menu-item">
+            <img src="GAMBAR2/RAVIOLI.png" alt="Gelato">
+            <h2>Ravioli</h2>
+            <p>Wagyu mousse, mushroom, cheese sause.</p>
+        </div>
+        <!-- Tambahkan item-menu lainnya di sini -->
+    </div>
+
+
+
+
+    <section class="menu" id="menu">
+        <h3 class="section-title" style="color: bisque;">Dessert of De Fleur Ristorante</h3>
+
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="GAMBAR2/RED PANNA COTA .png" alt="Pizza">
+            <h2>Panna Cotta</h2>
+            <p>Buttermilk Vanilla Panna Cotta with Berries and Honey.</p>
+        </div>
+        <div class="menu-item">
+            <img src="GAMBAR2/Pizza Nutella .png" alt="Pasta">
+            <h2>Pizza Nuttela</h2>
+            <p>Nutella, strawberry, banana, mascarpone.</p>
+        </div>
+        <div class="menu-item">
+            <img src="GAMBAR2/Crème Brûlée.png" alt="Gelato">
+            <h2>Creme Brulee</h2>
+            <p>fruits and cardamom aroma.</p>
+        </div>
+        <div class="menu-item">
+            <img src="GAMBAR2/GELATO.png" alt="Pizza">
+            <h2>Gelato</h2>
+            <p>daily selection.</p>
+        </div>
+        <div class="menu-item">
+            <img src="GAMBAR2/TIRAMISU.png" alt="Pasta">
+            <h2>Tiramissu</h2>
+            <p>Mascarpone, coffee, biscuits.</p>
+        </div>
+        <div class="menu-item">
+            <img src="GAMBAR2/AFFOGATO.png" alt="Gelato">
+            <h2>Affogato</h2>
+            <p>Vanilla ice cream & Espresso.</p>
+        </div>
+        <!-- Tambahkan item-menu lainnya di sini -->
+    </div>
+
+
+    <section class="menu" id="menu">
+        <h3 class="section-title" style="color: bisque;">Beverage of De Fleur Ristorante</h3>
+
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="GAMBAR2/RED HONEY LEMON.png" alt="Pizza">
+            <h2>Red Honey Lemon</h2>
+            <p>Aperol, vodka, honey, lemon, and strawberry.</p>
+        </div>
+        <div class="menu-item">
+            <img src="GAMBAR2/LEMON TWIST.png" alt="Pasta">
+            <h2>Lemon Twist</h2>
+            <p>Vodka, lemon, simple syrup.</p>
+        </div>
+        <div class="menu-item">
+            <img src="GAMBAR2/Chamomile Tea.png" alt="Gelato">
+            <h2>Chamomile Tea</h2>
+            <p>Chamomile, earl grey.</p>
+        </div>
+        <div class="menu-item">
+            <img src="GAMBAR2/Apple Mojito .png" alt="Pizza">
+            <h2>Apple Mojito</h2>
+            <p>home made apple cider with mixburry pure mojito.</p>
+        </div>
+        <div class="menu-item">
+            <img src="GAMBAR2/SANGRIA.png">
+            <h2>Red Sangria</h2>
+            <p>Mixed drink on the basis of red wine with citrus and berries.</p>
+        </div>
+        <div class="menu-item">
+            <img src="GAMBAR2/EQUIL (2).png" alt="Gelato">
+            <h2>Equil</h2>
+            <p>Mineral water made from natural mountain springs, processed hygienically.</p>
+        </div>
+        <!-- Tambahkan item-menu lainnya di sini -->
+    </div>
+</body>
+<script src="script.js"></script>
+
+ <!-- Edit button-->
+ <body>
+  <div class="content">
+  <div style="height: 0px;"></div>
+  </div>
+  <a href="menuadmin2.html">
+      <button class="side-button" style="font-weight: bold; font-size: 20px; font-style: italic;">Edit Tools</button>
+  </a> 
+</html>

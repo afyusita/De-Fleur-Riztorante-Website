@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="service.css" />
+
+    <title>De Fleur Ristorante | Admin</title>
+    <style>
+        body {
+            background-color: #711515;
+        }
+
+        .navbar {
+            background-color: #fde7cf;
+            border: 2px solid #891717e5;
+            border-radius: 15px;
+            width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .navbar .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .navbar-brand {
+            margin-bottom: -90px;
+        }
+
+        .navbar img {
+            margin-bottom: 30px;
+        }
+
+        .fst-italic {
+            font-weight: bold;
+            font-size: 45px;
+            font-style: italic;
+            color: #891717e5;
+            margin: 80px 0 20px;
+        }
+
+        .description {
+            font-weight: bold;
+            color: #711515;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid #891717e5;
+            border-radius: 4px;
+            padding: 5px;
+            width: 500px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+            margin-bottom: 20px;
+        }
+
+        .input-group input {
+            border: none;
+            outline: none;
+            background-color: transparent;
+            width: 100%;
+        }
+
+        .save__button .button {
+            border: 2px solid #891717e5; 
+            border-radius: 15px; 
+            font-style: italic; 
+            padding: 10px 70px; 
+            color: #891717e5; 
+            text-decoration: none; 
+            transition: background-color 0.3s ease; 
+        }
+
+        .save__button .button:hover {
+            background-color: #891717e5; 
+            color: #ffffff; 
+        }
+        
+
+        .fst-italic {
+    font-weight: bold;
+    font-size: 45px;
+    font-style: italic;
+    color: #891717e5;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+.fst-italic2 {
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    color: #891717e5;
+    margin-top: 10px; 
+    margin-bottom: 20px;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-light">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+            <a class="navbar-brand" href="#">
+                <img src="LOGO DE FLEUR.png" class="logo" alt="" width="150" height="150" />
+            </a>
+            <p class="fst-italic">Menu Admin</p>
+            <p class="fst-italic2">Main Course of De Fleur Ristorante</p>
+            <div class="form-container">
+                <p class="description">Input Gambar Menu 1</p>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Gambar Menu 2</p>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Gambar Menu 3</p>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Gambar Menu 4</p>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Gambar Menu 5</p>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Menu 1</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan judul di sini">
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan Deskripsi di sini">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Menu 2</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan judul di sini">
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan Deskripsi di sini">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Menu 3</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan judul di sini">
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan Deskripsi di sini">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Menu 4</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan judul di sini">
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan Deskripsi di sini">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Menu 5</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan judul di sini">
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan Deskripsi di sini">
+                </div>
+            </div>
+            <p class="fst-italic2">Dessert of De Fleur Ristorante</p>
+            <div class="form-container">
+                <p class="description">Input Gambar Menu 1</p>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Gambar Menu 2</p>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Gambar Menu 3</p>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Gambar Menu 4</p>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Gambar Menu 5</p>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Menu 1</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan judul di sini">
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan Deskripsi di sini">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Menu 2</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan judul di sini">
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan Deskripsi di sini">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Menu 3</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan judul di sini">
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan Deskripsi di sini">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Menu 4</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan judul di sini">
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan Deskripsi di sini">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Menu 5</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan judul di sini">
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan Deskripsi di sini">
+                </div>
+            </div>
+            <p class="fst-italic2">Beverage of De Fleur Ristorante</p>
+            <div class="form-container">
+                <p class="description">Input Gambar Menu 1</p>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Gambar Menu 2</p>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Gambar Menu 3</p>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Gambar Menu 4</p>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Gambar Menu 5</p>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Menu 1</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan judul di sini">
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan Deskripsi di sini">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Menu 2</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan judul di sini">
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan Deskripsi di sini">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Menu 3</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan judul di sini">
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan Deskripsi di sini">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Menu 4</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan judul di sini">
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan Deskripsi di sini">
+                </div>
+            </div>
+            <div class="form-container">
+                <p class="description">Input Menu 5</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan judul di sini">
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Inputkan Deskripsi di sini">
+                </div>
+            </div>
+            <div class="save__button">
+                <a href="" class="button">Simpan Data</a>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
